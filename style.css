@@ -30,4 +30,126 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
-/* ----- zde začni psát vlastní CSS ----- */
+/* hlavička */
+
+.hlavicka {
+    display: flex;
+    color:#25133d;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 1px;
+    padding: 0;
+    align-items: center;
+}
+
+a {
+    padding: 5px;
+    padding-right: 60px;
+    text-decoration: none;
+    color:#25133d;
+}
+
+.logo {
+	padding: 10px 50px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/*logo*/
+
+.pozadi {
+    position: relative;
+    color: white;
+}
+
+.telefon {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.nazev {
+    position: absolute;
+    font-size: 60px; 
+    top: 30px;
+    left: 30px;
+    margin: 0px;
+    font-weight: 400;
+}
+
+.popis {
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 300;
+    width: 350px;
+}
+
+.tlacitka {
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    display: flex;
+}
+
+.stahnout {
+    border: 1px solid white;
+    background: #48418e;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 30px;
+    box-shadow: 5px 5px 20px rgb(32, 32, 32);
+    border-radius: 8px;
+}
+
+.informace {
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 5px 5px 20px rgb(32, 32, 32);
+    border-radius: 8px;
+}
+
+
+/*sloupce*/
+
+.sloupce {
+    display: flex;
+    text-align: center;  
+}
+
+.prvni {
+    margin: 30px;
+}
+
+.druhy {
+    margin: 30px;
+}
+
+.treti {
+    margin: 30px;
+}
+
+h2 {
+    color: #48418e;
+    margin: 10px;
+}
+
+/*patička*/
+
+.paticka {
+    text-align: center;
+    background-color: #48418e;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.zaver {
+    padding: 5px;
+}
